@@ -9,26 +9,20 @@
     background-size: cover;
 }
 
-.nav {
-    font-size: 20px;
-    font: Lucida Grande;
-    display: inline;
-}
-
 body {
     line-height: 1.4;
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 20px;
     margin-bottom: 20px; 
-    font-size: 16px;
+    font-size: 20px;
     font: Lucida Grande;
-    background-color: #F5F5DC;
+    background-color: #3399FF;
 }
 
 .home-title {
     font-size: 30pt;
-    color: #FF3333;
+    color: #C1272D;
     float: left;
 }
 
