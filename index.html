@@ -1,24 +1,27 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
-    <!-- This section is the content of the page -->
     <head>
-        <!-- Information about the page here -->
-        <title>Portfolio</title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" 
-              href="../assignment1/style_homepage.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Pantry</title>
+        <!-- Latest compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
     </head>
 
-    <body class="home-body">
-        
-        <div class="home-title"><b>Saad Mazhar</b></div>
-        
-        <div class="home-sub">
-            <p> <img src="../assignment1/photo.jpg" 
-                alt="photo"/> </p>
-            <a href="../assignment1/bio.html">ABOUT ME</a> &nbsp;&nbsp;
-            <a href="../assignment1/resume.pdf">RESUME</a> &nbsp;&nbsp;
+    <body>
+        <div class="jumbotron">
+            <h1 class="display-3">Welcome to Pantry</h1>
         </div>
+        <div id="scanner-container"></div>
+        <button type="button" id="btn" class="btn btn-success btn-lg">Start the scanner</button>
+        <!-- Needed for scanner library and to use jQuery -->
+        <script src="node_modules/quagga/dist/quagga.min.js"></script>
+        <script src="node_modules/quagga/dist/quagga.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Handles all of scanner  -->
+        <script src="scanner.js"></script>
+        <div id="ingredients_list"></div>
+        <div id="recipes"></div>
     </body>
 </html>
